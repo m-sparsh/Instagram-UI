@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Story from './components/Story';
+import Posts from './components/Posts';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
          <Navbar />
          <div className="box">
          <Story />
+         <Posts />
          </div>
     </div>
   );
