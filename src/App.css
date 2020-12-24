@@ -68,3 +68,20 @@ body{
   width:22px;
   margin-left:2px;
 }
+
+
+.box{
+  display:block;
+  width:100%;
+  padding: 0 200px;
+  margin-top:85px;
+}
+.stories{
+  width:68%;
+  display:block;
+  background: #fff;
+  border:1px solid #efefef;
+  border-radius: 3px;
+  height:116px;
+  padding:16px;
+}
