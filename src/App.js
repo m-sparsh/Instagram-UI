@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Story from './components/Story';
 import Posts from './components/Posts';
+import Rightfixbar from './components/Rightfixbar';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
          <div className="box">
          <Story />
          <Posts />
+         <Rightfixbar />
          </div>
     </div>
   );

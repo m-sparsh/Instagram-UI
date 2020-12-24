@@ -21,6 +21,7 @@ body{
   padding: 0 200px;
   display: flex;
   align-items: center;
+  z-index:44;
 }
 
 .navlogo{
@@ -80,7 +81,7 @@ body{
   width:68%;
   display:flex;
   background: #fff;
-  border:1px solid #efefef;
+  border:1px solid #D3D3D3	;
   border-radius: 3px;
   height:116px;
   padding:16px;
@@ -124,9 +125,9 @@ body{
 .posts{
   width:68%;
   background: #fff;
-  margin:15px 0;
-  border: 1px solid #efefef;
-
+  margin:25px 0 50px;
+  border: 1px solid #D3D3D3	;
+  font-size:13px;
 }
 .posts-top{
   display:flex;
@@ -163,4 +164,162 @@ body{
   width:100%;
   height:100%;
   object-fit: cover;
+}
+
+.post-buttons{ 
+   display:flex;
+   position:relative;
+}
+.postlikebutton{
+   display: inline-block;
+  margin:10px 10px;
+  cursor:pointer;
+}
+
+.posts-likedby{
+  display:flex;
+  align-items: center;
+  background: #fff;
+  padding:0 10px 4px;
+  position:relative;
+
+}
+.posts-likedby-img{
+  display:block;
+  height:25px;
+  width:25px;
+  border-radius:50%;
+  color:#fff;
+}
+.posts-caption{
+  padding:4px 10px ;
+}
+
+.viewcomments{
+  padding:4px 10px;
+  color:#A9A9A9;
+  cursor: pointer;
+}
+.eg-comments-box{
+  margin-bottom:6px;
+}
+.eg-comments{
+  position:relative;
+  padding:4px 10px ;
+  display:flex;
+}
+.eg-comments-like{
+  position:absolute;
+  right:10px;
+}
+
+.comment{
+  display:flex;;
+  height:55px;
+  padding:16px;
+  border-top:1px solid #f2f2f2;
+  position:relative;
+}
+.add-comment{
+  color:#C0C0C0;
+}
+.comment-post{
+  position:absolute;
+  right:10px;
+  font-weight:bold;
+  color: #0095f6;
+  opacity:0.3;
+}
+
+
+.Rightbar{
+  position : fixed;
+  top:100px;
+  left:870px;
+  font-size:12px;
+  width:20%;
+}
+
+.Rightbar-user{
+  position:relative;
+  display:flex;
+  align-items:center;
+}
+.Rightbar-user-img{
+  width: 60px;
+  height: 60px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.Rightbar-user-name{
+  margin-left:10px;
+  font-weight:bold;
+}
+.Rightbar-button{
+  position:absolute;
+  right:0;
+  display:block;
+  cursor:pointer;
+  font-weight:bold;
+  color: #0095f6;
+}
+
+.suggestion{
+  display:flex;
+  position:relative;
+  margin:15px 0;
+}
+.sugg-head{
+  color: #8e8e8e;
+  font-weight:bold;
+}
+.sugg-see-all{
+  position:absolute;
+  right:0;
+}
+
+.Rightbar-user{
+  position:relative;
+  display:flex;
+  align-items:center;
+  margin-bottom:10px;
+}
+.sug-user-img{
+  width: 35px;
+  height: 35px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.Rightbar-user-name{
+  margin-left:10px;
+  font-weight:bold;
+}
+.Rightbar-button{
+  position:absolute;
+  right:0;
+  display:block;
+  cursor:pointer;
+  font-weight:bold;
+  color: #0095f6;
+}
+
+.sug-ul{
+  display:flex;
+  margin: 20px 0;
+  list-style-type:none;
+}
+.sug-ul li{
+  color: #c7c7c7;
+  padding-right:4px;
+  display:block;
+  cursor:pointer;
+  font-size:12px;
+}
+.copyright{
+  margin:10px 0;
+  color:#c7c7c7;
 }
