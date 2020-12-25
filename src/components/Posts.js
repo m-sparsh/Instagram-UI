@@ -19,7 +19,7 @@ const rand2= Math.floor(Math.random() * 200);
 
     return(
         <>{post.map((post) => (
-          <div className="posts">
+          <div className="posts" key={post.id}>
           
           <div className="posts-top">
               <img className="posts-top-img" src={post.profileimg} alt="Image" />

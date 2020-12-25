@@ -7,7 +7,7 @@ const [suggest] = useState([
     { id: 2, profileimg: "/images/chirag.jpeg", name: "chirag_agarwal112" },
     { id: 3, profileimg: "/images/shivam.jpeg", name: "shivamgupta1281" },
     { id: 4, profileimg: "/images/anas.jpeg", name: "anwar.anas19" },
-    { id: 2, profileimg: "/images/yash.jpeg", name: "_yash_.2209" },
+    { id: 5, profileimg: "/images/yash.jpeg", name: "_yash_.2209" },
 ])
 
    return(
@@ -19,7 +19,7 @@ const [suggest] = useState([
 
        <div className="sug-info">
        {suggest.map((profile) => (
-         <div className="Rightbar-user">
+         <div className="Rightbar-user" key={profile.id}>
             <div><img className="sug-user-img" src={profile.profileimg} alt="profile image" /> </div>
             <div className="Rightbar-user-name">{profile.name}</div>
             <div className="Rightbar-button">Follow</div>

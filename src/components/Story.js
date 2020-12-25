@@ -16,7 +16,7 @@ function Story(){
     return(
         <div className="stories">
              {story.map((person) => (
-                <div className="storyblock">
+                <div className="storyblock" key={person.id}>
                    <div className="storypic">
                        <span>
                        <img src={person.img} alt="user" />
